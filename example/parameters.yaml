@@ -1,0 +1,14 @@
+images_folder: "newer_college_dataset/infra1/"
+scans_folder: "newer_college_dataset/ouster_scan/"
+imu_file: "newer_college_dataset/seq1/20/noisified_gt.csv" 
+ground_truth_file: "newer_college_dataset/seq1/ground_truth.csv"
+
+intrinsics:
+    fx: 431.38739114
+    fy: 430.24961762 
+    cx: 427.4407802
+    cy: 238.52694868
+extrinsics:
+    lidar2camera: [-0.70992163, -0.02460003, -0.70385092, -0.04874569, 0.70414167, -0.00493623, -0.71004236, -0.05289342,  0.01399269, -0.99968519,  0.02082624, -0.04699275,  0.        ,  0.        ,  0.,  1.]
+    imu2camera: [0 ,-1,0,0,0,0,-1,0,1,0,0,0,0,0,0,1]
+
