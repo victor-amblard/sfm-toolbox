@@ -1,17 +1,17 @@
 Running `preprocessZip.sh` will create a directory with the following structure:
 
-| parameters.yaml
-| --- imgs
-     | 
-     --- raw
-     |    | XX.jpg
-     |    | YY.jpg
-     |
-     --- rectified
-     |    | XX_rectified.jpg 
-     |    | YY_rectified.jpg
-     |
-| --- scans
+| parameters.yaml  
+| --- imgs  
+     |   
+     --- raw  
+     |    | XX.jpg  
+     |    | YY.jpg  
+     |  
+     --- rectified  
+     |    | XX_rectified.jpg   
+     |    | YY_rectified.jpg  
+     |  
+| --- scans  
 
 There is an example of `parameters.yaml` file in `example`. It basically contains all intrinsic parameters and lever arms.
 Note that ground truth file is optional and is used only for evaluation purposes.
